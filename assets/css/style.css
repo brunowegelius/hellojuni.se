@@ -135,13 +135,18 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
   height: 72px;
 }
 .nav-logo {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-weight: 900;
-  font-size: var(--text-xl);
-  color: var(--black);
-  letter-spacing: -0.03em;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
 }
-.nav-logo span { color: var(--accent); }
+.nav-logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+.footer-logo img {
+  filter: brightness(0) invert(1);
+}
 .nav-links {
   display: flex;
   align-items: center;
