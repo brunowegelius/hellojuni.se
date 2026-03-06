@@ -140,7 +140,7 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
   line-height: 1;
 }
 .nav-logo img {
-  height: 40px;
+  height: 56px;
   width: auto;
   display: block;
 }
