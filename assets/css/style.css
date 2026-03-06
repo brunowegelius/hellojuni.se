@@ -153,7 +153,7 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
   color: var(--text-body);
   transition: color var(--transition);
 }
-.nav-links a:hover { color: var(--accent); }
+.nav-links a:hover { color: var(--black); text-decoration: underline; text-underline-offset: 3px; }
 .nav-cta { margin-left: 1rem; }
 .nav-hamburger {
   display: none;
@@ -196,13 +196,12 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background: rgba(201,230,16,0.1);
+  background: var(--black);
   color: var(--accent);
   font-size: var(--text-sm);
   font-weight: 700;
   font-family: 'Plus Jakarta Sans', sans-serif;
   padding: 0.375rem 0.875rem;
-  border-radius: 999px;
   margin-bottom: 1.5rem;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -307,9 +306,11 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
   font-size: var(--text-xs);
   font-weight: 700;
   font-family: 'Plus Jakarta Sans', sans-serif;
+  background: var(--black);
   color: var(--accent);
   letter-spacing: 0.12em;
   text-transform: uppercase;
+  padding: 0.25rem 0.75rem;
   margin-bottom: 0.75rem;
 }
 .section-header h2 { margin-bottom: 1rem; }
@@ -359,11 +360,13 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 700;
   font-size: var(--text-sm);
-  color: var(--accent);
+  color: var(--black);
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
   transition: gap var(--transition);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .service-link:hover { gap: 0.7rem; }
 @media (max-width: 900px) { .services-grid { grid-template-columns: 1fr; max-width: 480px; } }
@@ -390,7 +393,7 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
   width: 56px;
   height: 56px;
   background: var(--accent);
-  color: var(--white);
+  color: var(--black);
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 900;
   font-size: var(--text-xl);
@@ -573,7 +576,7 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
 .price-badge {
   display: inline-block;
   background: var(--accent);
-  color: var(--white);
+  color: var(--black);
   font-size: var(--text-xs);
   font-weight: 700;
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -637,7 +640,7 @@ section { padding: clamp(4rem, 8vw, 7rem) 0; }
   gap: 1rem;
   transition: color var(--transition);
 }
-.faq-question:hover { color: var(--accent); }
+.faq-question:hover { color: var(--black); }
 .faq-icon {
   width: 28px;
   height: 28px;
